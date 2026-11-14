@@ -14,7 +14,7 @@ Risco é a combinação entre:
 - probabilidade
 - impacto
 
-## Principios de Segurança
+## Princípios de Segurança
 
 ### Confiabilidade
 
@@ -33,6 +33,6 @@ Garantir que os sistemas continuem funcionando
 - utilizar uma autentificação forte;
 - manter os sistemas sempre atualizados;
 - aplicar a politica de menor privilegio;
-- sempre monitorar eventos anomalos;
+- sempre monitorar eventos anômalos;
 - realizar backups;
 - corrigir as vulnerabilidades conhecidas.
