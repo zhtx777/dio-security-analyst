@@ -26,13 +26,13 @@ Para possibilitar que o assistente realiza-se essas atividades, criei e alterei 
 
 É onde eu defini, o objetivo por trás do que agente faz e o fluxo das suas ações, fluxo esse que ajuda a deixar mais claro para o estudante o retorno dado pelo agente. Essas etapas do fluxo de trabalho dele consistem em:
 
-- Contextualização.
-- Identificação.
-- Evidencias.
-- Avaliação.
-- Correção.
-- Validação.
-- Relatório.
+- Contextualização - busca entender o contexto do ambiente envolvido.
+- Identificação - investiga as possíveis vulnerabilidades existentes. 
+- Evidencias - apresenta os trechos do código que comprovam que ele está comprometido.
+- Avaliação - analisa o impacto real que essa falha pode ter, levando em conta probabilidade e impacto.
+- Correção - recomenda medidas de solucionar a falha, explicando o porque de cada uma delas.
+- Validação - verifica se a solução sugerida realmente solucionou o problema.
+- Relatório - apresenta os resultados de maneira organizada e sistematizada.
 
 ### security-basics.md
 
@@ -364,4 +364,10 @@ Com base nas diretrizes da skill vulnerability-analysis localizada em
   │ • Ação Imediata: Substituir a concatenação/formatação manual de strings por consultas parametrizadas (?) e adotar hashing criptográfico para armazenamento de senhas.
 ```
 Com essa sendo a alteração que ele propos para o código:  
+![Codigo seguro](/images/codigo-seguro.png)
 
+## Conclusão 
+
+Desse modo é possível concluir que com poucos arquivos em markdown é possível modificar quase que inteiramente a visão do agente sobre um mesmo código com vulnerabilidades.  
+Para além disso é possível destacar também o impacto educacional disso, no qual no segundo teste é notório a preocupação com o aluno realmente entender o porque da vulnerabilidade existir e como solucioná-la de maneira segura e eficaz.  
+Por é preciso salientar o quanto os agentes de IA são ferramentas poderosas nos dias atuais sobretudo em areas de tecnologia como cibersegurança, assim integrá-los a rotina de estudantes e de formados na area é uma atividade essencial, visto que eles irão ocupar cada vez mais espaço na area
