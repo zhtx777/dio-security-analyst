@@ -264,7 +264,7 @@ Com base nas diretrizes da skill vulnerability-analysis localizada em
   No arquivo dio-agent/agent/app.py:                                                                          
                                                                                                               
   • Linha 8 e Linha 11:                                                                                       
-    query = "SELECT * FROM usuario WHERE username = '{usuario}' AND password = '{senha}'"                     
+    query = f"SELECT * FROM usuario WHERE username = '{usuario}' AND password = '{senha}'"                     
     cursor.execute(query)                                                                                     
   Evidência: A variável query foi estruturada para interpolação direta. Se utilizada como f-string (f"..."),  
   qualquer caractere de controle (como aspas simples ') permite alterar a estrutura lógica da consulta SQL.   
