@@ -1,0 +1,40 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Arquivos de configuração e segredos
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+credentials/
+
+# Bancos de dados locais
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Editores e IDEs
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
