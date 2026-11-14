@@ -97,7 +97,7 @@ Análise de segurança da aplicação no arquivo
   • SQL Injection (SQLi) / CWE-89: A consulta SQL foi
   construída por interpolação de strings não         
   sanitizadas diretamente no comando SQL:            
-    query = "SELECT * FROM usuario WHERE username =  
+    query = f"SELECT * FROM usuario WHERE username =  
     '{usuario}' AND password = '{senha}'"            
   (Mesmo que formatada com f-string ou .format(),    
   concatenar entradas de usuários diretamente na     
