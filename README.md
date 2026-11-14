@@ -65,7 +65,7 @@ def fazer_login(usuario, senha):
         cursor = conexao.cursor()
 
   
-        query = "SELECT * FROM usuario WHERE username = '{usuario}' AND password = '{senha}'"
+        query = f"SELECT * FROM usuario WHERE username = '{usuario}' AND password = '{senha}'"
         
         
         cursor.execute(query)
