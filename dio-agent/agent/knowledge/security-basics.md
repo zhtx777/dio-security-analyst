@@ -16,7 +16,7 @@ Risco é a combinação entre:
 
 ## Princípios de Segurança
 
-### Confiabilidade
+### Confidencialidade
 
 Garantir que somente pessoas que precisam de uma informação tenham acesso a ela.
 
